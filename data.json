@@ -1,0 +1,76 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "name": "Alicia",
+            "email": "alicia.bang@gmail.com",
+            "dob": "2005-04-25"
+        },
+        {
+            "id": 2,
+            "name": "Bob",
+            "email": "bob@gmail.com",
+            "dob": "1995-09-12"
+        },
+        {
+            "id": 3,
+            "name": "Jeff",
+            "email": "Jeff@gmail.com",
+            "dob": "1966-11-09"
+        }  
+    ],
+    "project": [
+        {
+            "id": 1,
+            "user_id": 1,
+            "title": "My first project",
+            "description": "A description for my first project" 
+        },
+        {
+            "id": 2,
+            "user_id": 2,
+            "title": "Bob's first project",
+            "description": "A description for Bob's first project" 
+        },
+        {
+            "id": 3,
+            "user_id": 3,
+            "title": "Jeff's first project",
+            "description": "A description for Jeff's first project" 
+        }        
+    ],
+    "language": [
+        {
+            "id": 1,
+            "project_id": 1,
+            "languages": "HTML, CSS, JS"
+        },
+        {
+            "id": 2,
+            "project_id": 2,
+            "languages": "C, Python"
+        },
+        {
+            "id": 3,
+            "project_id": 3,
+            "languages": "HTML, CSS"
+        }
+    ],
+    "database": [
+        {
+            "id": 1,
+            "project_id": 1,
+            "database": "MySQL"
+        },
+        {
+            "id": 2,
+            "project_id": 2,
+            "database": "MongoDB"            
+        },
+        {
+            "id": 3,
+            "project_id": 3,
+            "database": "Neo4j"            
+        }
+    ]
+}
