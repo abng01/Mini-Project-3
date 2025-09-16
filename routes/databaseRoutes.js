@@ -18,5 +18,6 @@ router.delete("/:id", (req, res) => {
     Controllers.databaseController.deleteDatabase(req, res)
 })
 
+Controllers.initialController.storeDatabases()
 
 module.exports = router

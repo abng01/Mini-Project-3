@@ -60,17 +60,17 @@
         {
             "id": 1,
             "project_id": 1,
-            "database": "MySQL"
+            "databases": "MySQL"
         },
         {
             "id": 2,
             "project_id": 2,
-            "database": "MongoDB"            
+            "databases": "MongoDB"            
         },
         {
             "id": 3,
             "project_id": 3,
-            "database": "Neo4j"            
+            "databases": "Neo4j"            
         }
     ]
 }

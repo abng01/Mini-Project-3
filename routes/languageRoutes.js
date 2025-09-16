@@ -18,5 +18,6 @@ router.delete("/:id", (req, res) => {
     Controllers.languageController.deleteLanguages(req, res)
 })
 
+Controllers.initialController.storeLanguages()
 
 module.exports = router

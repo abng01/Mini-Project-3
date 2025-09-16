@@ -3,5 +3,5 @@ module.exports = {
     projectController: require("./projectController"),
     languageController: require("./languageController"),
     databaseController: require("./databaseController"),
-    initialConroller: require("./initialController")
+    initialController: require("./initialController")
 }

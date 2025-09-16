@@ -18,4 +18,6 @@ router.delete("/:id", (req, res) => {
     Controllers.userController.deleteUser(req, res)
 })
 
+Controllers.initialController.storeUsers()
+
 module.exports = router

@@ -18,4 +18,7 @@ router.delete("/:id", (req, res) => {
     Controllers.projectController.deleteProject(req, res)
 })
 
+Controllers.initialController.storeProjects()
+
+
 module.exports = router
